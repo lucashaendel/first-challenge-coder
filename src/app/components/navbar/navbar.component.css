@@ -1,0 +1,28 @@
+header {
+  background-color: var(--primary-color);
+  height: var(--navbar-height);
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.container-navbar {
+  height: var(--navbar-height);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+li:hover {
+  color: red;
+  cursor: pointer;
+}

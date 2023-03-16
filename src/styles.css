@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --navbar-height: 10vh;
+  --aside-width: 20%;
+  --primary-color: #f0f0f0;
+  --secondary-color: #464646;
+}

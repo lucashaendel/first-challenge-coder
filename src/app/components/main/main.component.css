@@ -1,0 +1,18 @@
+.container-main {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(60, 60, 60, 0.548);
+  padding: 20px;
+  border-radius: 20px;
+}
+h2 {
+  color: var(--primary-color);
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  border-bottom: 1px solid;
+}
